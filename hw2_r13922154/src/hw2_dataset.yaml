@@ -1,0 +1,21 @@
+# 告訴 YOLO 你的資料集根目錄在哪裡
+# '.' 表示 'hw2_dataset.yaml' 所在的當前資料夾
+path: ../data/datasets
+
+# 相對於 path 的路徑
+train: images/train  # 訓練圖片資料夾
+val: images/val      # 驗證圖片資料夾
+
+# 測試集圖片路徑 (用於 model.predict())
+test: ../test_images  # 注意：我們把測試集放在 datasets 外面
+
+# 類別 (Classes)
+nc: 4  # 類別總數
+
+# 類別名稱 (必須按照索引 0, 1, 2, 3 的順序)
+# 根據簡報 P.11 [cite: 127] 和 P.2 [cite: 17]
+names:
+  0: car
+  1: hov
+  2: person
+  3: motorcycle

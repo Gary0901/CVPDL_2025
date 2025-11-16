@@ -36,5 +36,11 @@
 
 ### **[HW3] Image Generation**
 
-* **作業主題:** 影像生成 (Image Generation)。
-* **目標與挑戰:** 待公佈。
+* **作業主題:** 影像生成(Image Generation)。
+* **目標:** 實作Diffusion-based Generative Model 於手寫數字的生成。
+* **數據集:** MNIST (60000 張 28 X 28 RGB圖像）。
+* **核心挑戰 (難點):**
+    1. 實作 Diffusion Generative Models。
+    2. 訓練模型，在生成10000張影像後，達成優異的FID評估分數。
+* **評估指標:** Frechet Inception Distance (FID)。
+* **報告重點:** 模型描述、實作細節、量化分析，以及 Diffusion Process Visualizations (視覺化擴散過程) 。
